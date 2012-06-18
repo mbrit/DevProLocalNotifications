@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="BrewNotifier.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BrewNotifier"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Brew some coffee!" HorizontalAlignment="Left" Margin="63,48,0,0" VerticalAlignment="Top" Click="HandleBrewClick"/>
+        <Button Content="Brew some coffee, and toast me!" HorizontalAlignment="Left" Margin="63,91,0,0" VerticalAlignment="Top" Click="HandleBrewClickWithToast"/>
+        <Button Content="Brew some coffee, and tile me!" HorizontalAlignment="Left" Margin="63,134,0,0" VerticalAlignment="Top" Click="HandleBrewClickWithTile"/>
+        <Button Content="Show a random badge number!" HorizontalAlignment="Left" Margin="63,177,0,0" VerticalAlignment="Top" Click="HandleBrewClickWithBadge"/>
+
+    </Grid>
+</Page>
