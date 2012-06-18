@@ -10,7 +10,7 @@ namespace BrewNotifier
     {
         public int NumShots { get; internal set; }
         public DrinkSize Size { get; internal set; }
-        public bool Decaff { get; internal set; }
+        public bool Decaf { get; internal set; }
         public DrinkType Type { get; internal set; }
         public MilkType Milk { get; internal set; }
         public bool Wet { get; internal set; }
@@ -36,8 +36,8 @@ namespace BrewNotifier
                 builder.Append("triple-shot");
             builder.Append(" ");
 
-            if (Decaff)
-                builder.Append("decaff ");
+            if (Decaf)
+                builder.Append("decaf ");
 
             if (Wet)
                 builder.Append("wet ");

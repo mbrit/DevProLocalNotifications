@@ -15,7 +15,7 @@ namespace BrewNotifier
             // create...
             var drink = new DeliciousDrink();
             drink.NumShots = rand.Next(1, 4);
-            drink.Decaff = PickBool(rand);
+            drink.Decaf = PickBool(rand);
             drink.Wet = PickBool(rand);
             drink.ToGo = PickBool(rand);
             drink.Size = (DrinkSize)PickEnum(typeof(DrinkSize), rand);
